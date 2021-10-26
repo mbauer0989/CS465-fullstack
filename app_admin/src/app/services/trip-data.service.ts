@@ -8,8 +8,10 @@ import { BROWSER_STORAGE } from '../storage';
 
 @Injectable()
 export class TripDataService {
-  constructor(private http: Http,
-    @Inject(BROWSER_STORAGE) private storage: Storage) { }
+  constructor(
+    private http: Http,
+    @Inject(BROWSER_STORAGE) private storage: Storage
+    ) { }
 
   private apiBaseUrl = 'http://localhost:3000/api/';
   private tripUrl = `${this.apiBaseUrl}trips/`;

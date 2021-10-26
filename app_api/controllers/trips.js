@@ -50,8 +50,8 @@ const tripsFindCode = async (req, res) => {
 
 const tripsAddTrip = async (req, res) => {
     console.log('tripsAddTrip invoked with:\n' + req.body);
-    getUser (req, res,
-            (req, res) => {
+    getUser(req, res,
+        (req, res) => {
     Trip
         .create({
             code: req.body.code,
@@ -81,7 +81,7 @@ const tripsAddTrip = async (req, res) => {
 
 const tripsUpdateTrip = async (req, res) => {
     console.log(req.body);
-    getUser (req, res,
+    getUser(req, res,
         (req, res) => {
     Trip
         .findOneAndUpdate({ 'code': req.params.tripCode }, {
