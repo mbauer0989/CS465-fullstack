@@ -1,3 +1,6 @@
+# CS465 - Full Stack Development I
+Designed and developed a full stack application through the utilization of programming language frameworks. While creating a full stack application, I was responsible for developing a database as well as the code that interfaces their application to the database. This course is the first course in a two-course sequence.
+
 # Architecture
 •	Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 •	Why did the backend use a NoSQL MongoDB database?
